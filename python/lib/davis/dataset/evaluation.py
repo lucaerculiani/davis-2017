@@ -104,5 +104,5 @@ def print_results(evaluation,method_name="-"):
     evaluation['dataset'][metric][statistic],3) for metric,statistic in
     itertools.product(metrics,cfg.EVAL.STATISTICS)])
 
-  print "\n{}\n".format(str(table))
+  print ("\n{}\n".format(str(table)))
 

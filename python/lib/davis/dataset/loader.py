@@ -27,7 +27,7 @@ import davis
 import numpy as np
 
 from PIL import Image
-from base import Sequence, Annotation, BaseLoader, Segmentation
+from .base import Sequence, Annotation, BaseLoader, Segmentation
 
 from ..misc.config import cfg,phase,db_read_sequences
 
